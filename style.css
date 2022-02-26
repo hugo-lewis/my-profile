@@ -1,0 +1,119 @@
+body {
+  background-color: #F2F5EA;
+  font-family: 'Nunito', sans-serif;
+  color: #717580;
+  line-height: 25px ;
+}
+
+h1 {
+  color: #4f75ff;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+p {
+  font-weight: lighter;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #D6DBD2 ;
+}
+
+tr {
+  margin-top: 20px;
+}
+
+td {
+  text-align: left;
+}
+
+
+/* Custom styles */
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.card {
+background-color: white;
+text-align: center;
+border-radius: 5px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+padding: 20px;
+margin-bottom: 50px;
+}
+
+.image-round {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+display: inline-block;
+padding: 0px 20px;
+}
+.blue-btn {
+  background-color: #4f75ff;
+  color: #F2F5EA;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.blue-btn:hover {
+  background-color: #FFCFBE;
+  color: #2C363F;
+}
+
+.light-text {
+  color: #C3C8BF;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2C363F;
+}
+
+#sidebar > ul > li {
+color: white;
+list-style: none;
+line-height: 80px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+/* Media queries */
+
+@media (max-width: 700px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
